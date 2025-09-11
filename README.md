@@ -49,5 +49,4 @@ I am a Backend Developer and Data Analyst <img src="https://media.giphy.com/medi
 
 ### :writing_hand: Blog Posts :
 <!-- BLOG-POST-LIST:START -->
-
 <!-- BLOG-POST-LIST:END -->
