@@ -44,3 +44,10 @@ I am a Backend Developer and Data Analyst <img src="https://media.giphy.com/medi
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=medvedev013&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&line_height=24)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=medvedev013&layout=compact&theme=radical&hide_border=true&exclude_repo=medvedev013.github.io)](https://github.com/anuraghazra/github-readme-stats)
+
+---
+
+### :writing_hand: Blog Posts :
+<!-- BLOG-POST-LIST:START -->
+
+<!-- BLOG-POST-LIST:END -->
