@@ -1,0 +1,30 @@
+name: Latest blog post workflow
+
+on:
+  schedule:
+    # Runs every hour (at the start of each hour)
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allows manual trigger via GitHub UI
+
+jobs:
+  update-readme-with-blog:
+    name: Update README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # Required to commit changes
+
+      - uses: gautamkrishnar/blog-post-workflow@v1.9
+        with:
+          max_post_count: "4"
+          feed_list: "https://dev.to/feed/medvedev013" # 🔥 ЗАМЕНИТЕ НА СВОЙ НИК!
+          template: |
+            ## 📝 Latest Blog Posts
+
+            {{#each posts}}
+            - [{{title}}]({{link}}) - _{{date}}_
+            {{/each}}
+
+          commit_message: "chore: update README with latest blog posts"
+          show_date: true
