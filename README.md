@@ -30,12 +30,13 @@
 ### :man_technologist: About Me
 I am a Backend Developer and Data Analyst <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Russia.
 
-- :telescope: I turn raw data into compelling stories — using Python to clean, analyze, and visualize information so even non-technical stakeholders understand trends without Excel formulas.
-- :seedling: I don’t just write code — I automate routine tasks. My Python scripts save my team hours every week by handling file processing, report generation, and KPI validation automatically.
-- :zap: I speak both data and business languages — I can explain why a sales spike in July wasn’t random, but the result of a targeted campaign — and prove it with clear visualizations built in Seaborn.
+- :telescope: Python developer since 2018. I turn raw data into actionable insights — cleaning, analyzing, and visualizing with Pandas, NumPy, and Plotly.
+- :seedling: I automate repetitive tasks. My scripts handle file processing, report generation, and KPI tracking — saving hours every week.
+- :zap: I build reliable solutions for business, not just code. No “done in an hour” promises — only delivered on time, every time.
+- :no_entry_sign: Not a nerd. Just a developer who ships.
 
 :mailbox: How to reach me:  
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/TimeToXensonOfficial)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/TimeToXensonChannel)
 
 ---
 
@@ -49,5 +50,4 @@ I am a Backend Developer and Data Analyst <img src="https://media.giphy.com/medi
 
 ### :writing_hand: Blog Posts :
 <!-- BLOG-POST-LIST:START -->
-
 <!-- BLOG-POST-LIST:END -->
