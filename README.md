@@ -36,7 +36,7 @@ I am a Backend Developer and Data Analyst <img src="https://media.giphy.com/medi
 - :no_entry_sign: Not a nerd. Just a developer who ships.
 
 :mailbox: How to reach me:  
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/TimeToXensonChannel)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/TimeToXensonOfficial)
 
 ---
 
