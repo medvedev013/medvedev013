@@ -50,7 +50,6 @@ I am a Backend Developer and Data Analyst <img src="https://media.giphy.com/medi
 
 ### :writing_hand: Blog Posts :
 <!-- BLOG-POST-LIST:START -->
-- [Test from dev.to to GitHub](https://dev.to/medvedev013/test-from-devto-to-github-o0p)
 - [🌿 I’m not an analyst. I just hear what the data is trying to say.](https://dev.to/medvedev013/im-not-an-analyst-i-just-hear-what-the-data-is-trying-to-say-2h6m)
 - [🐍 I Write in Python Because It Knows How to Listen](https://dev.to/medvedev013/i-write-in-python-because-it-knows-how-to-listen-1ag)
 <!-- BLOG-POST-LIST:END -->
