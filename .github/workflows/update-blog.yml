@@ -2,8 +2,8 @@ name: Update README with Latest Blog Posts
 
 on:
   schedule:
-    - cron: '0 * * * *'           # Каждый час
-  workflow_dispatch:              # Ручной запуск через интерфейс
+    - cron: '0 * * * *' # Каждый час
+  workflow_dispatch: # Ручной запуск через интерфейс
 
 jobs:
   update-readme:
@@ -13,13 +13,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
+          fetch-depth: 0 # Важно! Чтобы видеть историю изменений
 
-      - name: Fetch blog posts from Dev.to
+      - name: Fetch latest blog posts from Dev.to
         uses: gautamkrishnar/blog-post-workflow@v1.10
         with:
           max_post_count: "4"
-          feed_list: "https://dev.to/feed/medvedev013"  # 🔥 УБРАЛ ПРОБЕЛЫ В КОНЦЕ!
+          feed_list: "https://dev.to/feed/medvedev013" # 🔥 УБРАЛ ПРОБЕЛЫ В КОНЦЕ!
           template: |
             <!-- BLOG-POST-LIST:START -->
             ## 📝 Latest Articles
