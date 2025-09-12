@@ -1,43 +1,19 @@
-name: Update README with Latest Blog Posts
-
+name: Latest blog post workflow
 on:
   schedule:
-    - cron: '0 * * * *'          # Каждый час
-  workflow_dispatch:             # Ручной запуск через интерфейс
+    # Runs every hour
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  update-readme-with-blog:
+    name: Update this repos README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
-
-      - name: Fetch blog posts from Dev.to
-        uses: gautamkrishnar/blog-post-workflow@v1.10
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: "4"
-          feed_list: "https://dev.to/feed/medvedev013"  # 🔥 Без лишних пробелов!
-          template: |
-            <!-- BLOG-POST-LIST:START -->
-            ## 📝 Latest Articles
+          feed_list: "https://dev.to/feed/medvedev013"
 
-            {{#each posts}}
-            - [{{title}}]({{link}}) — _{{date}}_
-            {{/each}}
-            <!-- BLOG-POST-LIST:END -->
-
-      - name: Check for changes and commit
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          if git diff --cached --quiet; then
-            echo "✅ No changes detected. README is up to date."
-          else
-            git commit -m "chore: update README with latest blog posts"
-            git push
-            echo "✅ README updated successfully!"
-          fi
+    
