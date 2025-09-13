@@ -48,8 +48,8 @@ I am a Backend Developer and Data Analyst <img src="https://media.giphy.com/medi
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg";
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg";
   <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg";
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg"
-  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg"
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg";
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg";
 </div>
 
 ---
