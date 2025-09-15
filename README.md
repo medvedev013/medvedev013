@@ -12,6 +12,9 @@
   <a href="https://vk.com/shterben013">
     <img src="https://img.shields.io/badge/VK-4C75A0?logo=vk&logoColor=white" alt="VK Badge"/>
   </a>
+  <a href="https://kwork.ru/user/TimeToXenson">
+    <img src="https://img.shields.io/badge/Kwork-111827?logo=kwork&logoColor=3B82F6" alt="Kwork Badge"/>
+ </a>
 </div>
 
 <img src="https://komarev.com/ghpvc/?username=medvedev013&style=for-the-badge&color=grey" alt="Profile Views"/>
